@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import Hello from './components/Hello/Hello';
+import HelloComponent from './components/Hello/Hello';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <HelloComponent title="Mira"/>
       </header>
     </div>
   );
